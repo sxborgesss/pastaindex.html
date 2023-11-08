@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HEAD, CHARSET, SYMBOLS e EMOJIS</title>
+    <link rel="stylesheet" href="styles4.css">
+    <meta charset="UTF-8">
+</head>
+<header>
+    HEAD, CHARSET, SYMBOLS e EMOJIS
+</header>
+
+<body>
+    <h2>1 - Qual a utilidade da tag HEAD e quais os elementos HTML que podem ser usados dentro do head da página?</h2>
+    <p>A tag "head" é uma parte fundamental de um documento HTML e desempenha um papel crucial na estruturação e na
+        formatação de uma página da web. Embora o conteúdo dentro da tag "head" não seja visível para os usuários que
+        visitam a página, essa seção contém metadados e informações importantes para o navegador e para os mecanismos de
+        busca. Alguns dos elementos HTML que podem ser usados dentro do head são: </p>
+
+    <ol>
+        <li>&#706 title &#707 ;</li>
+        <li>&#706 base &#707 ;</li>
+        <li>&#706 link &#707 ;</li>
+        <li>&#706 meta &#707 ;</li>
+        <li>&#706 style &#707 ;</li>
+    </ol>
+    <br>
+    <hr>
+    <h2>2 - Explique a utilidade e o funcionamento das tags meta, title e base. Dê um exemplo da utilização de cada uma delas.</h2>
+    <ol>
+        <li>&#706 title &#707</li>
+        <p>A tag &#706 title &#707 define o título do documento. O título deve ser somente texto e é mostrado na barra
+            de título do navegador ou na aba da página.
+            A tag &#706 title &#707 é obrigatória em documentos HTML!</p>
+        <p>A tag &#706 title &#707:</p>
+        <ul>
+            <li>define um título na barra de ferramentas do navegador</li>
+            <li>fornece um título para a página quando ela é adicionada aos favoritos</li>
+            <li>exibe um título para a página nos resultados do mecanismo de pesquisa</li>
+        </ul>
+        <br>
+        <li>&#706 base &#707</li>
+        <ul>
+            <li>A tag &#706 base &#707 especifica o URL base e/ou destino para todos os URLs relativos em um documento.
+            </li>
+            <li>A tag &#706 base &#707 deve ter um atributo href ou target presente, ou ambos.</li>
+            <li>Só pode haver uma única tag &#706 base &#707 em um documento e ele deve estar dentro do elemento &#706 head &#707</li>
+        </ul>
+        <br>
+        <li>&#706 meta &#707</li>
+        <ul>
+            <li>A tag &#706 meta &#707 define metadados sobre um documento HTML. Metadados são dados (informações) sobre dados.</li>
+
+            <li>A tag &#706 meta &#707 sempre fica dentro do elemento &#706 head &#707 e normalmente são usadas para especificar conjunto de caracteres, descrição da página, palavras-chave, autor do documento econfigurações da janela de visualização.</li>
+
+            <li>Os metadados não serão exibidos na página, mas podem ser analisados ​​pela máquina.</li>
+
+            <li>Os metadados são usados ​​pelos navegadores (como exibir conteúdo ou recarregar páginas), mecanismos de pesquisa (palavras-chave) e outros serviços da web.</li>
+        </ul>
+    </ol>
+        <h3>Exemplo das tags: </h3>
+        <img src="img/EX.jpg" alt="exemplo">
+        <br>
+        <hr>
+        <h2>3 - O que é um charset? Qual a sua utilidade?</h2>
+        <p>"Charset" é uma abreviação de "character set" (conjunto de caracteres) e refere-se a um conjunto específico de caracteres e símbolos que podem ser usados em um sistema de codificação de caracteres. O conjunto de caracteres define como os caracteres são representados na forma de bytes, o que é essencial para a representação e interpretação de texto em computadores. Na configuração de html tem se a tag "&#706 meta &#707", que é onde se coloca o charset, e essa tag serve para que os navegadores saibam como devem renderizar os textos incluídos em uma página específica.</p>
+        <br>
+        <hr>
+    <h2>4 - Caso o charset não seja definido na página qual será utilizado por padrão?</h2>
+    <p>Por padrão será usado o "UTF-8" que por sua vez é a página de código universal para internacionalização e é capaz de codificar todo o conjunto de caracteres Unicode.</p>
+    <br>
+    <hr>
+    <h2>5 - Fale sobre os charsets UTF-8, ASCII, ANSI e ISO-8859-1.</h2>
+    <ol>
+        <li>"UTF-8"</li>
+        <p>É um padrão Unicode que suporta uma ampla gama de caracteres de diferentes idiomas e sistemas de escrita. Ele usa uma codificação de caracteres variável, o que significa que caracteres comuns são representados com menos bytes, tornando-o eficiente. É amplamente utilizado na web e em sistemas de software para suportar internacionalização e a exibição de texto em vários idiomas.</p>
+        <br>
+        <li>"ASCII"</li>
+        <p>É um conjunto de caracteres de 7 bits que representa principalmente caracteres do alfabeto inglês e alguns caracteres de controle. Foi amplamente utilizado em sistemas mais antigos e ainda é encontrado em muitos arquivos de texto simples e comunicações de rede. Limitado a caracteres em inglês e não suporta caracteres acentuados ou outros caracteres de idiomas não ingleses.</p>
+        <br>
+        <li>"ANSI"</li>
+        <p>ANSI não é um conjunto de caracteres específico, mas uma organização que estabelece padrões nos EUA. Em sistemas Windows, "ANSI" às vezes é usado para se referir a conjuntos de caracteres estendidos, como o Windows-1252, que inclui caracteres acentuados usados em muitos idiomas europeus.</p>
+        <br>
+        <li>"ISO-8859-1"</li>
+        <p>É parte da série de padrões ISO-8859, que define conjuntos de caracteres para diferentes idiomas. O ISO-8859-1 é projetado para suportar caracteres usados em idiomas europeus ocidentais, incluindo letras acentuadas, como é comum em idiomas como o francês, espanhol, alemão, entre outros. É um conjunto de caracteres de 8 bits que permite a representação de 256 caracteres.</p>
+    </ol>
+    <br>
+    <hr>
+    <h2>6 - Explique como se pode usar símbolos e emojis em páginas web e dê exemplos.</h2>
+    <p>Símbolos e letras que não estão presentes no teclado podem ser adicionados ao HTML usando códigos, até mesmo emojis podem ser adcicionados ao html usando essa função. Cada caracter ou emojis tem seu propiro código</p>
+    <p>Exemplos de símbolos:</p>
+    <ul>
+        <li>O símbolo do copyright, é feito usando o código "& copy": &copy</li>
+        <li>Um estrela se faz usando o código "& #11214":  &#11214</li>
+    </ul>
+    <p>Exemplos de emojis:</p>
+    <ul>
+        <li>Para ser exibido um tigre o código é "& #128005": &#128005;</li>
+        <li>Para ser exibido uma onça o código é "& #128006": &#128006</li>
+    </ul>
+</body>
+<div class="layout">
+    <footer>
+        <a href="https://evotecgyfuhyuhuty.000webhostapp.com/pasta.html">Pasta de Trabalhos</a>
+    </footer>
+</div>
+</html>

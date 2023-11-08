@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+  
+    background-color: rgb(79, 5, 87);
+    font-size: 20px;
+}
+
+abbr{
+    color: white;
+}
+
+img.borda1{
+    border:8px solid rgb(255, 255, 255);
+}
+
+a{
+    text-align: justify;
+    font-size: 100%; 
+}
+
+img{
+    width: 10%; 
+    height: 10%;
+}
+
+div.item{
+    padding:10px;
+    border: 7px solid white ;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin: 5px;
+    min-width: 100px;
+    min-width: 500px;
+    min-height: 100px;
+    max-height: 500px;
+}
+
+div.item:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
