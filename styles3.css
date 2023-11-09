@@ -26,7 +26,8 @@ img{
 
 div.item{
     padding:10px;
-    border: 7px solid white ;
+    box-shadow: 0px 0px 20px white;
+    border: 5px white;
     margin-left: 190px;
     margin-right: 190px;
     margin: 5px;
